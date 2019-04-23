@@ -49,7 +49,7 @@
 4.  Periksa Kuku
     Algoritma :
         1. Simpan nilai "totalSiswa" dengan angka 0.
-        2. Simpan nilai "kuku" tanpa diberikan nilai apapun.
+        2. Simpan nilai "kuku" dengan nilai apapun.
         3. Ulangi step 4 apabila nilai "totalSiswa" masih kurang dari 40. 
             Jika "totalSiswa" sudah 40, lanjut ke step 7.
         4. Tambah nilai "totalSiswa" dengan 1. 
@@ -59,7 +59,7 @@
         7. Selesai.
     Pseudo-code:
         STORE "totalSiswa" with value 0.
-        STORE "kuku" without any value.
+        STORE "kuku" with any value.
         WHILE "totalSiswa" < 40
             ADD "totalSiswa" by 1
             IF ("kuku" equals to panjang)
