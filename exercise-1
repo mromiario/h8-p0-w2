@@ -1,0 +1,68 @@
+ 1. Newton Second Law
+    Algoritma :
+        1. Simpan "m" dengan nilai 600
+        2. Simpan "a" dengan nilai 2,
+        3. Simpan "F" dengan tanpa diberikan nilai.
+        4. Hitung hasil perkalian "m" dengan "a"
+        5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "F"
+        6. Tampilkan nilai dari F
+    
+    Pseudo-code :
+        STORE "m" with 600
+        STORE "a" with 2
+        STORE "F" without any value
+        CALCULATE "m" times "a"
+        SET "F" value with calculation result
+        DISPLAY "F"
+
+2. Tahun Kabisat
+    Algoritma :
+        1. Simpan "year" dengan nilai tahun berapapun.
+        2. Jika "year" habis di bagi 4 dan tidak habis di bagi 100,
+             atau "year" habis dibagi 4, habis di bagi 100 dan habis di bagi 400 ke step 3.
+            Selain itu ke step 4.
+        3. Tampilkan "Tahun Kabisat"
+        4. Tampilkan "Bukan Tahun Kabisat"
+
+    Pseudo-code:
+        STORE "year" with any value.
+        IF ("year" mod 4 equals to 0  AND  "year" mod 100 not equals to 0) OR 
+            ("year" mod 4 equals to 0 AND "year" mod 100 equals to 0 AND "year" mod 400 equals to 0)
+                 DISPLAY  "Tahun Kabisat"
+        ELSE
+                DISPLAY "Bukan Tahun Kabisat"
+        ENDIF
+
+3. Laundry Day
+    Algoritma :
+        1. Simpan nilai "totalPakaian" dengan angka 0
+        2. Ulangi step 3 apabila nilai "totalPakaian" masih kurang dari 20. 
+            Jika "totalPakaian" sudah 20, lanjut ke step 4.
+        3. Tambah nilai "totalPakaian" dengan 1. Kembali ke step 2.
+        4. Tampilkan "Mesin cuci siap dinyalakan"
+    Pseudo-code :
+        STORE "totalPakaian" with value 0.
+        WHILE "totalPakaian" < 20
+            ADD "totalPakaian" by 1
+        DISPLAY "Mesin cuci siap dinyalakan"   
+
+4.  Periksa Kuku
+    Algoritma :
+        1. Simpan nilai "totalSiswa" dengan angka 0.
+        2. Simpan nilai "kuku" dengan nilai apapun.
+        3. Ulangi step 4 apabila nilai "totalSiswa" masih kurang dari 40. 
+            Jika "totalSiswa" sudah 40, lanjut ke step 7.
+        4. Tambah nilai "totalSiswa" dengan 1. 
+            Jika "kuku" bernilai panjang ke step 5, selain itu ke step 6.
+        5. Tampilkan "Guru menghukum siswi/siswa tersebut"
+        6. Tampilkan "Guru memuji siswi/siswa tersebut"
+        7. Selesai.
+    Pseudo-code:
+        STORE "totalSiswa" with value 0.
+        STORE "kuku" with any value.
+        WHILE "totalSiswa" < 40
+            ADD "totalSiswa" by 1
+            IF ("kuku" equals to panjang)
+                DISPLAY "Guru menghukum siswi/siswa tersebut"
+            ELSE 
+                DISPLAY "Guru memuji siswi/siswa tersebut"
